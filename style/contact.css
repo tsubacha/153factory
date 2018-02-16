@@ -1,0 +1,76 @@
+z@charset "utf-8";
+#mail_text {
+	float: right;
+	height: 30px;
+	width: 250px;
+	padding-top: 5px;
+	color: #19328C;
+	font-size: 10px;
+}
+#mail_leftpadding {
+	float: left;
+	width: 80px;
+	height: 200px;
+}
+#mail_form {
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+#mail_padding {
+	float: left;
+	height: 300px;
+	width: 717px;
+	clear: left;
+}
+
+
+
+#lazer_sample {
+	width: 717px;
+	height: 30px;
+	background-color: #FF009B;
+	clear: left;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+#goods_sample_logo {
+	height: 21px;
+	width: 108px;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-right: auto;
+}
+
+
+#FirstSlider {
+	margin-top: 10px;
+	float: left;
+	clear: left;
+	width: 717px;
+	margin-bottom: 10px;
+}
+#lazer_douga {
+	height: 30px;
+	width: 400px;
+	background-color: #CCFF00;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+#laser_sample_logo {
+	height: 21px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+#lazer_youtube {
+	height: 400px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	margin-top: 10px;
+}

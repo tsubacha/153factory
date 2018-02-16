@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* 標準可変メディア
+   メモ : 可変メディアでは、HTML からメディアの高さおよび幅の属性を削除する必要がある
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+#nev4 table tr td {
+	border: 2px solid #009;
+}
+
+
+/* IE 6 では最大幅がサポートされていないため、デフォルトで幅 100% に設定される */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver 可変グリッドプロパティ
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	以下からヒントを入手 : Ethan Marcotte 氏の「レスポンシブ Web デザイン」 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	および Joni Korpi 氏の「Golden Grid System」
+	http://goldengridsystem.com/ 
+*/
+
+/* モバイルレイアウト : 480 px およびそれ以下. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#nev2 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+#nev3 {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+#nev4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* タブレットレイアウト : 481 px ～ 768 px。モバイルレイアウトからスタイルを継承。 */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* デスクトップレイアウト : 769 px ～最大 1232 px。モバイルレイアウトとタブレットレイアウトからスタイルを継承。 */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nev4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}

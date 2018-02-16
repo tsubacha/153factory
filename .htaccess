@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# iPhone
+RewriteCond %{HTTP_USER_AGENT} iPhone [NC]
+RewriteRule ^(|index.html)$ http://tsubacha.com/sp/ [R]
+
+# Android
+RewriteCond %{HTTP_USER_AGENT} Android.*Mobile [NC]
+RewriteRule ^(|index.html)$ http://tsubacha.com/sp/ [R]
+
+# Windows Phone
+RewriteCond %{HTTP_USER_AGENT} Windows\ Phone [NC]
+RewriteRule ^(|index.html)$ http://tsubacha.com/sp/ [R]
+
+# iPod touch
+RewriteCond %{HTTP_USER_AGENT} iPod [NC]
+RewriteRule ^(|index.html)$ http://tsubacha.com/sp/ [R]
+
+# BlackBerry
+RewriteCond %{HTTP_USER_AGENT} (BB10.*Mobile|BlackBerry) [NC]
+RewriteRule ^(|index.html)$ http://tsubacha.com/sp/ [R]

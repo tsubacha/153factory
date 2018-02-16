@@ -1,0 +1,181 @@
+@charset "utf-8";
+.wait {
+	cursor: url(http://88154f88faf2aaa2.main.jp/wait.ani), default;
+}
+.help {
+	cursor: url(http://88154f88faf2aaa2.main.jp/help.cur), default;
+}
+.face {
+	cursor: url(http://88154f88faf2aaa2.main.jp/arrow.cur), default;
+}
+ #scrollbar03::-webkit-scrollbar {
+ overflow:hidden;
+ width:5px;
+ background:#ffff00;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+}
+ #scrollbar03::-webkit-scrollbar:horizontal {
+ height:5px;
+}
+#scrollbar03::-webkit-scrollbar-button {
+ display:none;
+}
+#scrollbar03::-webkit-scrollbar-piece {
+ background:#ffff00;
+}
+ #scrollbar03::-webkit-scrollbar-piece:start {
+ background:#ffff00;
+}
+#scrollbar03::-webkit-scrollbar-thumb {
+ overflow:hidden;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+ background:#E4007F;
+}
+#scrollbar03::-webkit-scrollbar-corner {
+ overflow:hidden;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+ background:#E4007F;
+}
+body {
+	background-color: #e4007f;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover:link {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+#content {
+	height: 1000px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#container {
+	height: 750px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	color: #FFF;
+}
+/* CSS Document */
+
+#header {
+	background-color: #FFF;
+	height: 230px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	background-image: url(../img/popberry/header/popberry-heder.png);
+}
+#popberry_girl {
+	height: 414px;
+	width: 247px;
+	position: absolute;
+	float: right;
+	margin-left: 650px;
+}
+#mein-nav {
+	height: 40px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #E4007F;
+	margin-top: 0px;
+	border: 1px dotted #FF0;
+}
+#mein-nav ul {
+	list-style-type: none;
+	width: 622px;
+	position: relative;
+	height: 35px;
+	margin-top: 0px;
+	padding-top: 7px;
+}
+#t_sns {
+	float: left;
+	height: 35px;
+	width: 80px;
+	margin-left: 20px;
+	margin-top: 190px;
+}
+#t_sns ul {
+	list-style-type: none;
+	float: right;
+	height: 25px;
+	width: 60px;
+}
+#t_twitter {
+	float: left;
+	height: 28px;
+	width: 28px;
+	clear: both;
+	list-style-type: none;
+}
+#t_instagram {
+	height: 28px;
+	width: 28px;
+	float: left;
+	margin-left: 10px;
+	list-style-type: none;
+}
+#t_about {
+	float: left;
+	height: 25px;
+	width: 77px;
+	margin-right: 15px;
+}
+#t_lookbook {
+	float: left;
+	height: 25px;
+	width: 104px;
+	margin-right: 15px;
+}
+#t_onlinestore {
+	float: left;
+	height: 25px;
+	width: 125px;
+	margin-right: 15px;
+}
+#t_shop {
+	float: left;
+	height: 25px;
+	width: 72px;
+	margin-right: 15px;
+}
+#t_blog {
+	float: left;
+	height: 25px;
+	width: 72px;
+	margin-right: 15px;
+}
+#t_contact {
+	float: left;
+	height: 25px;
+	width: 97px;
+}
+#t_copylight {
+	font-size: 14px;
+	color: #032687;
+	height: 17px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	background-color: #E4007F;
+	text-align: center;
+}
+#footer {
+	width: 900px;
+	height: 50px;
+	background-color: #E4007F;
+	border: 1px dotted #FF0;
+}

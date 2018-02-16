@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TSUBACHA STREET.STYLE</title>
+<link href="../css/tsubacha_base.css" rel="stylesheet" type="text/css" />
+<link href="../css/tsubacha_top.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+html,body {
+scrollbar-arrow-color:#E4007F;
+scrollbar-face-color:#E4007F;
+scrollbar-3dlight-color:#ffff00;
+scrollbar-darkshadow-color:#ffff00;
+scrollbar-highlight-color:#ffff00;
+scrollbar-shadow-color:#ffff00;
+scrollbar-track-color:#E4007F;
+}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../malihu-custom-scrollbar-plugin-master/js/minified/jquery-1.11.0.min.js"></script>
+<link href="../malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css" />
+<link href="../malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript">
+$(document).ready( function() {
+    $("#contents").mCustomScrollbar({
+        axis:"yx",
+        theme:"Default scrollbar",
+        scrollButtons:{
+            enable:true
+        }
+    });
+});
+</script>
+
+<script type="text/javascript" src="../malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript">
+$(function() {
+	// �����\�����ɁA���݃A�N�e�B�u�ȃ��j���[�ֈړ�
+	$('nav span').css({ 
+		width: $('nav .current').outerWidth(),
+		left: $('nav .current').position().left 
+	});
+	// �}�E�X�I�[�o�[�̃A�j���[�V����
+	$('nav a').mouseover(function(){
+		$('nav span')
+			.stop()
+			.animate({
+				width: $(this).outerWidth(),
+				left: $(this).position().left}
+			,'fast');
+	});
+	// �߂�̃A�j���[�V����
+	$('nav a').mouseout(function(){
+		$('nav span')
+			.stop()
+			.animate({
+				width: $('nav .current').outerWidth(),
+				left: $('nav .current').position().left}
+			,'fast');
+	});
+})
+</script></head>
+<body>
+<div id="container">
+  <div id="header">
+    <nav>
+      <ul>
+        <li id="tsubacha_logo"><img src="../img/tsubacha/menu/t_tsubachalogo.png" width="76" height="81" alt="TSUBACHA_LOGO" /></li>
+        <li id="t_about"><a href="about.html"  class="current"><img src="../img/tsubacha/menu/t_about.png" width="140" height="25" alt="about" /></a></li>
+        <li id="t_lookbook"><a href="#" class="current"><img src="../img/tsubacha/menu/t_lookbook.png" width="140" height="25" alt="LOOKBOOK" /></a></li>
+        <li id="t_onlinestore"><a href="http://tsubacha4.shop-pro.jp/" class="current"  target="_blank"><img src="../img/tsubacha/menu/t_onlinestore.png" width="140" height="25" alt="ONLINESTORE" /></a></li>
+        <li id="t_shop"><a href="shop.html" class="current"><img src="../img/tsubacha/menu/t_shop.png" width="140" height="25" alt="SHOP" /></a></li>
+        <li id="t_blog"><a href="http://ameblo.jp/tsubacha15" class="current"  target="_blank"><img src="../img/tsubacha/menu/t_blog.png" width="140" height="25" alt="BLOG" /></a></li>
+        <li id="t_contact"><a href="contact.html" class="current"><img src="../img/tsubacha/menu/t_contact.png" width="140" height="25" alt="SHOP" /></a></li>
+          <li id="t_twitter" ><a href="https://twitter.com/tsubacha15"  target="_blank"><img src="../img/tsubacha/header/t_twitter.png" width="28" height="28" /></a></li>
+          <li id="t_insta"><a href="https://www.instagram.com/tsubacha0520/"  target="_blank"><img src="../img/tsubacha/header/t_instagram.png" width="28" height="28" alt="Instagram" /></a></li>
+      </ul>
+      <span></span> </nav>
+  </div>
+  <div id="contents">
+  
+  <div id="twitterbox"><div id="twitter_icon"><img src="../img/tsubacha/top/t_t_twitter.png" width="57" height="15" alt="twitter" /></div><div id="twitterwid"><a class="twitter-timeline"  href="https://twitter.com/tsubacha15" width="300" data-widget-id="678915805547892737">@tsubacha15さんのツイート</a> 
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div></div><div id="newsbox">News<br />
+2016年3月9日(Wed)-3月15日(Tue)<br />
+阪急うめだ本店<br />
+TSUBACHA/TSUBACHAPOP BERRY<br />
+期間限定ショップ出展</div><div id="instabox"><div id="insta_icon"><img src="../img/tsubacha/top/t_t_instagram.png" width="77" height="21" /></div><div id="instawid"><!-- SnapWidget -->
+          <iframe src="http://snapwidget.com/bd/?u=dHN1YmFjaGEwNTIwfGlufDMwMHwxfDF8ZmZmZmZmfHllc3wwfGZhZGVPdXR8b25TdGFydHx5ZXN8bm8=&ve=211215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:302px; height:427px"></iframe></div></div>
+  </div>
+  <div id="footer">
+    <div id="copyrighit">copyright&copy;2015 TSUBACHA.ALL Right Reserved</div>
+  </div>
+</div>
+</body>
+</html>

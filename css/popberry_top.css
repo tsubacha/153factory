@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contents {
+	height: 400px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	background-color: #FFF;
+	overflow: hidden;
+	color: #9FABCD;
+}
+#t_twitterbox {
+	height: 395px;
+	width: 376px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+#t_w_twitterlogo {
+	height: 15px;
+	width: 65px;
+	margin-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#t_twitter_window {
+	background-color: #601986;
+	height: 350px;
+	width: 350px;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+#t_news {
+	float: left;
+	height: 150px;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	text-align: left;
+	font-size: 16px;
+	color: #032687;
+}
+#t_twitter_widget {
+	height: 300px;
+	width: 300px;
+	color: #CCC;
+}
+#t_instagram_widget {
+	height: 350px;
+	width: 300px;
+}
+#t_instagrambox {
+	height: 500px;
+	width: 355px;
+	float: left;
+	margin-left: 40px;
+}
+#t_w_instagramlogo {
+	height: 15px;
+	width: 95px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#t_instagram_window {
+	height: 450px;
+	width: 330px;
+	background-color: #8fc31f;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+#t_news b {
+	font-size: 18px;
+}
+#container #cotents #t_news b {
+	color: #032687;
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+#p_shopinfo {
+	height: 550px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+.pconcept tr td {
+	color: #032687;
+	font-size: 12px;
+	text-align: left;
+}
+#p_shop1 {
+	float: left;
+	height: 400px;
+	width: 300px;
+	margin-top: 30px;
+}
+#p_shop2 {
+	float: left;
+	height: 400px;
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#popberry_shop {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+#contents {
+	height: 400px;
+	width: 900px;
+	background-color: #FFF;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-right: auto;
+	margin-left: auto;
+}

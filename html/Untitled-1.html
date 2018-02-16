@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!--略-->
+<script src="../jquery.imagemapster.js"></script>
+<script src="../jquery-1.8.0.min.js"></script>
+<style type="text/css">
+#menu_top {
+	height: 501px;
+	width: 407px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+</style>
+</head>
+<body>
+<p><div id="menu_top"><img src="../img/tsubacha_t_logo.png" alt="TOP_MENU" usemap="#shape1" id="shape1"> 
+  <script src="../jquery.imagemapster.js"></script> 
+</p>
+<map name="shape1">
+  <area shape="poly" coords="208,489,397,259,211,260,208,298,241,267,276,308,209,377" href="#" alt="blog" region="blog">
+  <area shape="poly" coords="210,256,303,254,294,220,328,223,315,254,397,255,326,134,266,134,332,211,238,174,206,208,209,220,222,219" href="#" alt="lookbook" region="lookbook">
+  <area shape="poly" coords="8,259,105,258,112,274,115,259,203,257,204,296,173,270,141,306,203,375,204,488" href="#" alt="contact" region="contact">
+  <!--略（ area要素で全てのエリアを指定します）--> 
+  <!--AREA for text--> 
+  <!--別の領域も、同じ「region (mapKey)」の値にすれば反応します-->
+  <area shape="poly" coords="117,257,202,255,190,222,207,221,203,207,174,172,75,213,142,135,91,135,11,254,106,256,95,221,130,221,118,251" href="#" alt="about" region="about">
+  <area shape="poly" coords="174,104,206,68,238,100,325,65,264,135,326,207,236,167,206,201,174,169,90,201,147,135,88,66" href="#" alt=tsubacha" region="tsubacha">
+  <area shape="poly" coords="207,371,147,305,174,273,204,305,242,277,269,307" href="#" alt="online_store" region="online_store">
+</map></div>
+
+<script>
+$(document).ready(function () 
+{ 
+    $('#shape1').mapster({ 
+    singleSelect : true, 
+    clickNavigate : true, 
+    render_highlight : { altImage : '../img/tsubacha_t_logoon.png' }, 
+    mapKey: 'region', 
+    fillOpacity : 50, 
+}); 
+}); 
+</script>
+</body>

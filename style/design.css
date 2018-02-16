@@ -1,0 +1,80 @@
+z@charset "utf-8";
+
+#design_text {
+	float: left;
+	width: 600px;
+}
+#fashion_design {
+	background-color: #FF009B;
+	float: left;
+	height: 30px;
+	width: 400px;
+}
+#fashion_sample_logo {
+	height: 20px;
+	width: 103px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 5px;
+	background-color: #FF009B;
+}
+
+
+#FirstSlider {
+	margin-top: 5px;
+	float: left;
+	clear: left;
+}
+#graphic_design {
+	width: 400px;
+	height: 30px;
+	background-color: #C2FF00;
+	margin-right: 0px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	float: right;
+	clear: left;
+}
+#graphic_sample_logo {
+	clear: right;
+	float: right;
+	height: 20px;
+	width: 106px;
+	margin-top: 5px;
+	margin-right: 100px;
+}
+#SecondSlider {
+	clear: right;
+	float: right;
+	margin-top: 5px;
+}
+#web_design {
+	background-color: #28AAE6;
+	height: 30px;
+	width: 400px;
+	float: left;
+	clear: right;
+	margin-top: 20px;
+}
+
+
+#web_sample_logo {
+	height: 20px;
+	width: 82px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 100px;
+	clear: left;
+}
+#ThirdSlider {
+	margin-bottom: 200px;
+	clear: left;
+	float: left;
+	margin-top: 5px;
+}
+
+.design_sample {
+	margin-right: 1px;
+}

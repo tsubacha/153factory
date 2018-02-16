@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#p_abouttsubacha {
+	height: 750px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+.pconcept tr td {
+	color: #032687;
+	font-size: 12px;
+	text-align: left;
+}
+#contents {
+	background-image: url(../img/popberry/about/p_about-tsubacha.png);
+	height: 400px;
+	width: 900px;
+	background-color: #FFF;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-right: auto;
+	margin-left: auto;
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+#twitterbox {
+	float: left;
+	height: 400px;
+	width: 400px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#newsbox {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+}
+#instabox {
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#twitter_icon {
+	height: 15px;
+	width: 57px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+}
+#insta_icon {
+	height: 21px;
+	width: 77px;
+	margin-left: 50px;
+}
+#t_news {
+	float: left;
+	height: 150px;
+	width: 500px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	text-align: left;
+	font-size: 12px;
+	color: #000000;
+}
+#twitterwid {
+	height: 300px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#instawid {
+	height: 350px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}

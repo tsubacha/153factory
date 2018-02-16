@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>TSUBACHA</title>
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+<script src="../jauary/jquery-1.8.0.min.js"></script>
+<script src="../jauary/jquery.imagemapster.js"></script>
+<link href="../pagePiling.js-master/jquery.pagepiling.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header">
+<div id="main-nav">
+<table width="614" border="0" cellspacing="10">
+  <tr>
+    <td width="80" id="main_about"><a href="about.html">ABOUT</a></td>
+    <td width="80" id="main_lookbook"><a href="#">LOOKBOOK</a></td>
+    <td width="80" id="main_onlinestore"><a href="#">ONLINESTORE</a></td>
+    <td width="80" id="main_shop"><a href="#">SHOP</a></td>
+    <td width="80" id="main_blog"><a href="#">BLOG</a></td>
+    <td width="80" id="main_contact"><a href="#">CONTACT</a></td>
+  </tr>
+</table>
+</div>
+</div>
+<div id="contents">
+<p>
+
+  </div>
+</div>
+</div>
+<script>
+$(document).ready(function () 
+{ 
+    $('#shape1').mapster({ 
+    singleSelect : true, 
+    clickNavigate : true, 
+    render_highlight : { altImage : '../img/tsubacha_t_logoon.png' }, 
+    mapKey: 'region', 
+    fillOpacity : 50, 
+}); 
+}); 
+</script>
+<div id="footer"><div id="copyright">copyright&copy;2015 TSUBACHA.ALL Right Reserved</div></div>
+</body>

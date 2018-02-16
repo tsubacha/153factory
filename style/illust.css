@@ -1,0 +1,84 @@
+z@charset "utf-8";
+
+#design_text {
+	float: left;
+	width: 500px;
+}
+#illust_sample {
+	width: 500px;
+	height: 30px;
+	background-color: #00CCFF;
+	margin-right: auto;
+	margin-left: auto;
+	clear: left;
+}
+.illust_sample {
+	margin-right: 1px;
+}
+
+#illust_sample_logo {
+	height: 22px;
+	width: 125px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+
+#nigaoe_sample {
+	background-color: #FF009B;
+	height: 30px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: left;
+}
+#SecondSlider {
+	height: 145px;
+	width: 717px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 200px;
+}
+
+
+#goods_sample_logo {
+	height: 22px;
+	width: 125px;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-right: auto;
+}
+#portrait_sample_logo {
+	height: 22px;
+	width: 157px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+
+
+
+#FirstSlider {
+	margin-top: 10px;
+	float: left;
+	clear: left;
+	width: 717px;
+	margin-bottom: 20px;
+}
+#lazer_douga {
+	height: 30px;
+	width: 400px;
+	background-color: #CCFF00;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+#lazer_youtube {
+	height: 400px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	margin-top: 10px;
+}

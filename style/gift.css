@@ -1,0 +1,56 @@
+z@charset "utf-8";
+
+#design_text {
+	float: left;
+	width: 500px;
+}
+#lazer_sample {
+	width: 717px;
+	height: 30px;
+	background-color: #FF009B;
+	clear: left;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+}
+#goods_sample_logo {
+	height: 21px;
+	width: 108px;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-right: auto;
+}
+
+
+#FirstSlider {
+	margin-top: 5px;
+	float: left;
+	clear: left;
+	width: 717px;
+	margin-bottom: 20px;
+}
+#lazer_douga {
+	height: 30px;
+	width: 450px;
+	background-color: #CCFF00;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+#laser_sample_logo {
+	height: 21px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+}
+#lazer_youtube {
+	height: 400px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	margin-top: 5px;
+	margin-bottom: 100px;
+}

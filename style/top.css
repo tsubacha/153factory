@@ -1,0 +1,174 @@
+@charset "utf-8";
+#factory-3logo {
+	height: 68px;
+	width: 293px;
+	float: left;
+	clear: left;
+	margin-top: 315px;
+}
+#floor-3 {
+	width: 715px;
+	list-style-type: none;
+	float: left;
+	height: 245px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #cccccc;
+	border-bottom-color: #cccccc;
+	border-left-color: #cccccc;
+}
+
+
+
+
+#f-list {
+	list-style-type: none;
+	width: 717px;
+	height: auto;
+	padding: 0px;
+}
+#f-design {
+	height: 218px;
+	width: 215px;
+	float: left;
+	padding-left: 20px;
+}
+#design-1 {
+	float: left;
+	height: 76px;
+	width: 272px;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#f-gift {
+	float: left;
+	height: 217px;
+	width: 222px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#gift-1 {
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#f-illust {
+	float: left;
+	height: 217px;
+	width: 214px;
+	padding-right: 20px;
+}
+#illust-1 {
+	float: left;
+	margin-left: 40px;
+}
+#floor-2 {
+	float: left;
+	height: 295px;
+	width: 715px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+}
+#shop-2logo {
+	float: left;
+	margin-top: 0px;
+	height: 71px;
+	width: 132px;
+}
+#hp-rakugaki {
+	height: 14px;
+	width: 163px;
+	float: left;
+	margin-left: 400px;
+}
+#mixup-hp-2f {
+	float: left;
+	margin-left: 380px;
+	margin-top: 5px;
+}
+#popberry-hp-2f {
+	height: 46px;
+	width: 95px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+#shop-mado {
+	margin-top: 0px;
+	margin-left: 80px;
+	height: 178px;
+	width: 561px;
+	float: left;
+}
+
+#shop-rakugaki {
+	float: left;
+	margin-right: auto;
+	margin-left: 70px;
+	margin-top: 5px;
+}
+#floor-1 {
+	height: 471px;
+	width: 715px;
+	background-image: url(../image/top/1f/info-mado.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+	float: left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #cccccc;
+	position: relative;
+	z-index: 70;
+}
+#low-furoa {
+	background-image: url(../image/common/low/cafe_haikei.gif);
+	background-repeat: no-repeat;
+	height: 332px;
+	width: 572px;
+	float: left;
+}
+#info-logo {
+	float: left;
+	height: 72px;
+	width: 224px;
+}
+#t-aboutme {
+	width: 300px;
+	margin-top: 90px;
+	height: 300px;
+	margin-left: 100px;
+	overflow: scroll;
+	color: #19328C;
+	font-size: 11px;
+	text-align: left;
+	float: left;
+	clear: left;
+}
+#t-event-info {
+	height: 330px;
+	width: 240px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 10px;
+}/* CSS Document */

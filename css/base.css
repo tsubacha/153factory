@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header1 {
+	height: 170px;
+	width: 900px;
+	border: 1px solid #000;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 60px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header #factory_logo {
+	height: 50px;
+	width: 145px;
+	margin: auto;
+	float: right;
+}
+#header1 #header_logo {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 243px;
+	height: 97px;
+}
+#contents {
+	width: auto;
+	height: 800px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contents #enter_select {
+	height: 500px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contents #enter_select ul li #street {
+	height: 450px;
+	width: 410px;
+	margin-right: 30px;
+}
+#contents #enter_select ul li #popberry {
+	height: 450px;
+	width: 410px;
+	margin-left: 30px;
+}
+
+
+#contents #enter_select ul li {
+	list-style-type: none;
+	float: left;
+}
+a.enter:link {
+	text-decoration: none;
+}
+a.enter:hover:link {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+
+#contents #enter_select ul li {
+	list-style-type: none;
+	padding: 8px;
+	margin-bottom: 100px;
+	height: 380px;
+	width: 380px;
+}
+#contents #enter_select ul li a:hover {
+	list-style-type: none;
+	background-image: url('http://88154f88faf2aaa2.main.jp/1.png');
+	padding: 300px 0px 3px 25px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position:left;
+	
+	text-indent: 380px;
+	
+}
